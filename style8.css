@@ -1,0 +1,8 @@
+#result{
+    font-weight: bold;
+}
+#eror{
+    color: red;
+    font-size: 24px;
+    font-weight: 400;
+}
