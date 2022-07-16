@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" async></script>
+    <title>Document</title>
+</head>
+<body>
+    <html>
+        <body>
+            <ul id="contactList">
+
+            </ul>
+            <div class="submitForm" id="submitForm">
+                <form action="#" id="inputBlock">
+                        <input type="text" placeholder="name" id="name" class="contactForm">
+                        <input type="text" placeholder="surname" id="surname" class="contactForm">
+                        <input type="text" placeholder="phone number" id="phone" class="contactForm">
+                        <p id="eror" class="eror"></p>
+                    <input type="submit" id="buttonContact">
+                </form>
+            </div>
+            <script type="text/template" id="tamplate">
+                <div id="contactContainer">
+                     <div class="contact">{{name}}</div>
+                     <div class="contact">{{surname}}</div>
+                     <div class="contact">{{phone}}</div>
+                    <button class="contact contactDal" id="del">dalete</div>
+                 </div>
+            </script>
+        </body>
+        </html>
+</body>
+</html>

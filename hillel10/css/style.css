@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+}
+#contactContainer{
+    margin-left: 23%;
+    max-width: 620px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+#contactList{
+    margin-bottom: 20px;
+}
+.contact{
+    width: 150px;
+    font-size: 24px;
+    display: inline-block;
+}
+button.contact{
+    background-color: crimson;
+    color: whitesmoke;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+button.contact:hover{
+    transition: 1s;
+    background-color: whitesmoke;
+    color: red;
+    border: 1px solid red;
+}
+#submitForm{
+    position: absolute;
+    left: 20px;
+    bottom: 50%;
+}
+.contactForm{
+    display: block;
+    margin-bottom: 5px;
+}
+.eror{
+    color: red;
+    font-size: 12px;
+    text-align: start;
+    margin-top: -5px;
+}
