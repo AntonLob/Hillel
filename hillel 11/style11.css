@@ -1,0 +1,47 @@
+body{
+    background-color: rgba(105, 105, 105, 0.7);
+}
+#btn{
+    font-size: 24px;
+}
+.eror{
+    color: red;
+}
+.block{
+    width: 150px;
+    background-color: whitesmoke;
+    font-size: 20px;
+    border: 2px solid  black;
+    border-radius: 0px 20px 20px 0px;
+    margin-bottom: 5px;
+}
+.classBlock{
+    background-color: red;
+}
+.delImg{
+    display: inline-block;
+    margin-right: -1px;
+    margin-top: -1px;
+    width: 25px;
+    background-color: brown;
+    float: right;
+    height: 24px;
+    border-radius: 0px 20px 20px 0px;
+    border-left: 1px solid grey;
+    box-sizing: border-box;
+}
+.delBtn{
+    margin-top: 4px;
+    margin-right: 3px;
+    width: 15px;
+    float: right;
+}
+#inp{
+    font-size: 24px;
+    font-family: monospace;
+}
+.form{
+    display: inline-block;
+    border: 2px solid white;
+    background-color: white;
+}
