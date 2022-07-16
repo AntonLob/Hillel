@@ -1,0 +1,58 @@
+body{
+    text-align: center;
+}
+.string{
+    border: 2px solid black ;
+    border-radius: 20px;
+    font-size: 18px;
+    min-width: 33%;
+    margin-bottom: 10px;
+}
+.block{
+    display: inline-block;
+    width: 23%;
+    height: 24px;
+    border-right: 1px solid gray;
+}
+.editBtn{
+    width: 10%;
+    color: whitesmoke;
+    border: 2px solid white;
+    margin-right: 2px;
+    border-radius: 20px;
+    float: right;
+    border-right: 0px;
+}
+.btn{
+    width: 10%;
+    color: whitesmoke;
+    background-color: red;
+    border: 2px solid white;
+    margin-right: 2px;
+    border-radius: 20px;
+    float: right;
+    border-right: 0px;
+}
+.edit{
+    background-color: greenyellow;
+}
+.btn:active{
+    transition: 200ms;
+    color: red;
+    background-color: whitesmoke;
+    border: 2px solid red;
+}
+.dataForm{
+    position: sticky;
+    bottom: 0px;
+    left: 25%;
+    background-color: aqua;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.eror{
+    color: red;   
+}
+.editForm{
+    display: none;
+}

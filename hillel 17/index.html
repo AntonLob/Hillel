@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="BigImage.css">
+    <script src="Api.js" defer></script>
+    <script src="BigImage.js" defer></script>
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <aside class="asideMenu" id="listAlbum"></aside>
+        <div class="listPictures" id="listPictures"></div>
+    </div>
+
+    <script type="template/html" id="templateAlbum" async>
+        <div class="assideBtn" id="{{id}}"">
+            {{title}}
+        </div>
+    </script>
+    <script type="template/html" id="templatePicture" async>
+        <div class="elem" id="{{id}}" data-url="{{url}}">
+            <img class="photo-item"src="{{thumbnailUrl}}" alt="#">
+        </div>
+    </script>
+
+</body>
+</html>

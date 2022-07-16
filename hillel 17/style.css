@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    
+    }
+.asideMenu{
+    left: 0px;
+    min-width: 25%;
+    background-color: aliceblue;
+}
+.assideBtn{
+    border: 1px solid black;
+    border-right: 1px solid grey;
+
+}
+.assideBtn:hover{
+ cursor: pointer;
+border: 1px solid white;
+background-color: aquamarine;
+box-shadow: 2px;
+}
+.container{
+display: flex;
+}
+.listPictures{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.elem{
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 10px;
+}
